@@ -1,0 +1,30 @@
+@media print {
+    .content-header, .breadcrumb, .btn, .card-header {
+        display: none;
+    }
+
+    .card {
+        border: none;
+    }
+
+    .table {
+        width: 100%;
+        border-collapse: collapse;
+    }
+
+    .table th, .table td {
+        border: 1px solid #000;
+        padding: 8px;
+        text-align: left;
+    }
+}
+
+.img-square-large {
+    width: 500px; /* atau ukuran yang diinginkan */
+    height: 600px; /* atau ukuran yang diinginkan */
+    border-radius: 0; /* menghilangkan border radius agar menjadi kotak */
+    border: 2px solid #ddd; /* jika ingin menambahkan border */
+    object-fit: cover; /* memastikan gambar tetap proporsional dalam kotak */
+}
+
+
